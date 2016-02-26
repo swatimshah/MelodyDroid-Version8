@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:id="@+id/organizationLayout"
+   android:layout_gravity="bottom"
+   android:background="@drawable/merged_instruments_updated3"
+   >
+
+
+    <com.droid.melodydroid.display.SampleView 
+    	android:id="@+id/testView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+
+   <RelativeLayout android:id="@+id/myDynamicLayout" 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="6"          
+          > 
+ 
+	</RelativeLayout>
+
+
+
+<!--ListView
+    android:id="@+id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="0.8"    
+    /-->
+    
+<!--TextView
+    android:id="@+id/android:empty"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   	android:layout_weight="0.8"    
+    android:text="No search criteria available."/-->
+
+	    
+</LinearLayout>
